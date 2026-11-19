@@ -13,8 +13,17 @@ interface VocabDao {
     @Query("SELECT * FROM vocabulary")
     fun getAllVocabularies(): Flow<List<Vocabulary>>
 
+    @Query("SELECT * FROM vocabulary WHERE word LIKE '%' || :query || '%' OR meaning LIKE '%' || :query || '%' OR example LIKE '%' || :query || '%' ORDER BY word ASC")
+    fun searchVocabularies(query: String): Flow<List<Vocabulary>>
+
+    @Query("SELECT COUNT(*) FROM vocabulary")
+    suspend fun getVocabCount(): Int
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertVocabulary(vocabulary: Vocabulary)
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertAll(vocabularies: List<Vocabulary>)
 
     @Update
     suspend fun updateVocabulary(vocabulary: Vocabulary)

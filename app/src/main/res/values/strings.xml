@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Vocabulary Learning App</string>
+    <string name="example_format">Ví dụ: %1$s</string>
+    <string name="result_count_format">Tìm thấy %1$d từ vựng</string>
+    <string name="search_hint">Nhập từ vựng, nghĩa hoặc từ khóa…</string>
+    <string name="no_results_found">Không tìm thấy từ vựng phù hợp</string>
+    <string name="search_title">Tìm kiếm từ vựng</string>
+    <string name="menu_home">Trang chủ</string>
+    <string name="menu_search">Tìm kiếm</string>
+    <string name="menu_utility">Tiện ích</string>
+    <string name="home_dev1">Màn hình Trang chủ (Dev 1)</string>
+    <string name="utility_dev3">Màn hình Tiện ích (Dev 3)</string>
 </resources>

@@ -20,6 +20,10 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     buildTypes {
         release {
             optimization {
@@ -40,6 +44,15 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.material)
     
+    // Lifecycle & Fragment
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+    implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.fragment.ktx)
+
+    // Gson
+    implementation(libs.google.gson)
+
     // Room
     implementation(libs.room.runtime)
     implementation(libs.room.ktx)
