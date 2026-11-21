@@ -21,4 +21,10 @@ interface VocabDao {
 
     @Delete
     suspend fun deleteVocabulary(vocabulary: Vocabulary)
+
+    @Query("SELECT COUNT(*) FROM vocabulary")
+    suspend fun count(): Int
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertAll(vocabularies: List<Vocabulary>)
 }

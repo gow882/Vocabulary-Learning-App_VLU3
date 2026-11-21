@@ -1,0 +1,20 @@
+[
+  { "word": "apple", "meaning": "quả táo", "phonetic": "/ˈæp.əl/", "example": "I eat an apple every day." },
+  { "word": "bread", "meaning": "bánh mì", "phonetic": "/bred/", "example": "She buys fresh bread." },
+  { "word": "rice", "meaning": "cơm, gạo", "phonetic": "/raɪs/", "example": "We eat rice for lunch." },
+  { "word": "water", "meaning": "nước", "phonetic": "/ˈwɔː.tər/", "example": "Please drink more water." },
+  { "word": "airport", "meaning": "sân bay", "phonetic": "/ˈeə.pɔːt/", "example": "We arrived at the airport early." },
+  { "word": "ticket", "meaning": "vé", "phonetic": "/ˈtɪk.ɪt/", "example": "I lost my train ticket." },
+  { "word": "passport", "meaning": "hộ chiếu", "phonetic": "/ˈpɑːs.pɔːt/", "example": "Don't forget your passport." },
+  { "word": "hotel", "meaning": "khách sạn", "phonetic": "/həʊˈtel/", "example": "We booked a hotel near the beach." },
+  { "word": "keyboard", "meaning": "bàn phím", "phonetic": "/ˈkiː.bɔːd/", "example": "My keyboard is broken." },
+  { "word": "network", "meaning": "mạng", "phonetic": "/ˈnet.wɜːk/", "example": "The network is down." },
+  { "word": "password", "meaning": "mật khẩu", "phonetic": "/ˈpɑːs.wɜːd/", "example": "Use a strong password." },
+  { "word": "family", "meaning": "gia đình", "phonetic": "/ˈfæm.əl.i/", "example": "My family lives in Hanoi." },
+  { "word": "friend", "meaning": "bạn bè", "phonetic": "/frend/", "example": "He is my best friend." },
+  { "word": "teacher", "meaning": "giáo viên", "phonetic": "/ˈtiː.tʃər/", "example": "The teacher is very kind." },
+  { "word": "book", "meaning": "quyển sách", "phonetic": "/bʊk/", "example": "I am reading a good book." },
+  { "word": "office", "meaning": "văn phòng", "phonetic": "/ˈɒf.ɪs/", "example": "She works in an office." },
+  { "word": "meeting", "meaning": "cuộc họp", "phonetic": "/ˈmiː.tɪŋ/", "example": "The meeting starts at nine." },
+  { "word": "deadline", "meaning": "hạn chót", "phonetic": "/ˈded.laɪn/", "example": "The deadline is tomorrow." }
+]
